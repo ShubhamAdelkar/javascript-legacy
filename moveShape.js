@@ -15,6 +15,8 @@ shape.move(3, 5);
 console.log(shape.position.x);
 console.log(shape.position.y);
 
+module.exports = Shape;
+
 
 // Adding a Method
 // Let's make our shape move!
