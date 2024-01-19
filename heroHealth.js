@@ -1,6 +1,6 @@
 class Hero {
-  constructor() {
-    this.health = 50;
+  constructor(initialHealth) {
+    this.health = initialHealth || 50;
   }
   takeDamage(damage) {
     this.health -= damage;
