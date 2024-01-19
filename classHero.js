@@ -8,3 +8,5 @@ class Hero {
 
 const hero = new Hero();
 console.log(hero.health);
+
+module.exports = Hero;
