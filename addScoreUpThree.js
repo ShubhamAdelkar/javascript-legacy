@@ -14,8 +14,12 @@ function addScore(players) {
 
 const originalPlayers = [
   { id: 0, score: 5 },
-  { id: 1, score: 20 },
+  { id: 1, score: 70 },
+  { id: 2, score: 0 },
+  { id: 3, score: 20 },
+  { id: 4, score: 30 },
+  { id: 5, score: 40 },
 ];
 
-addScore(originalPlayers);
+console.log(addScore(originalPlayers));
 module.exports = addScore;
