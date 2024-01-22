@@ -8,4 +8,12 @@ function group(foods) {
   }, {});
 }
 
+console.table(
+  group([
+    { food: "apple", type: "fruit" },
+    { food: "orange", type: "fruit" },
+    { food: "carrot", type: "vegetable" },
+  ])
+);
+
 module.exports = group;
