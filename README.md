@@ -1,7 +1,7 @@
 # JS FUNDAMENTALS 🔥
-This repo contains only JS codes. 💻
+This repo cover whole javascript(ES6) with examples.💻
 
-## Basics ⭐
+## Basics 
 <b>JS Basics ✓</b>
 - <small>Functions & Operators</small>
 - <small>Conditionals</small>
@@ -22,7 +22,7 @@ This repo contains only JS codes. 💻
 - <small>Prototype Chain</small>
 - <small>Classes</small>
 
-## Data Structures ⭐⭐
+## Data Structures 
 
 <b>Array Manipulation ✓</b>
 - <small>Array Sort</small>
@@ -35,4 +35,6 @@ This repo contains only JS codes. 💻
 - <small>Stacks</small>
 - <small>Linked List</small>
 
-## Web Server ⭐⭐⭐
+## ES6
+
+## Web Server
