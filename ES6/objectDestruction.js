@@ -13,6 +13,18 @@ const { today: highToday, tomorrow: highTomorrow } = HIGH_TEMPERATURES;
 console.log("new " + highToday);
 console.log("new " + highTomorrow);
 
+// destructing nested objects
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 },
+};
+const {
+  today: { low: lowToday, high: highThisday },
+} = LOCAL_FORECAST;
+console.log(lowToday);
+console.log(highThisday);
+
 // ES5
 const user = { name: "John Doe", age: 34 };
 const name = user.name;
