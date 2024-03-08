@@ -9,4 +9,4 @@ const newFunction2 = thisName.bind({ name: "Bob" });
 console.log(newFunction()); // Shubham
 console.log(newFunction2()); //Bob
 
-module.exports = newFunction2;
+export default newFunction2;

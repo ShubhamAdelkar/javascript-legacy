@@ -6,5 +6,6 @@ function sumTogether(arr1, arr2) {
   return sum;
 }
 
-module.exports = sumTogether;
 console.log(sumTogether([2, 3, 4, 5], [3, 5, 7, 54]));
+
+export default sumTogether;

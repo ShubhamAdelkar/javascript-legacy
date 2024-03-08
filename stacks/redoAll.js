@@ -1,4 +1,4 @@
-const Stack = require("./Stack");
+import Stack from "./Stack";
 
 class OperationManager {
   constructor() {
@@ -27,4 +27,4 @@ class OperationManager {
   }
 }
 
-module.exports = OperationManager;
+export default OperationManager;

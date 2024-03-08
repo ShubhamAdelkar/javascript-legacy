@@ -9,5 +9,6 @@ function countVowels(str) {
   return count;
 }
 
-module.exports = countVowels;
 console.log(countVowels("Cincinatiee"));
+
+export default countVowels;

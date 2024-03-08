@@ -5,4 +5,4 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 console.log(factorial(0));
-module.exports = factorial;
+export default factorial;

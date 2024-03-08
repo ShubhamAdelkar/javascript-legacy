@@ -9,4 +9,4 @@ const node = new Node(4);
 console.log(node.data);
 console.log(node.next);
 
-module.exports = Node;
+export default Node;

@@ -13,4 +13,4 @@ console.log(hero.health);
 hero.takeDamage(6);
 console.log(hero.health);
 
-module.exports = Hero;
+export default Hero;

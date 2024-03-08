@@ -7,4 +7,4 @@ function factorial(n) {
   }
 }
 console.log(factorial(4));
-module.exports = factorial;
+export default factorial;

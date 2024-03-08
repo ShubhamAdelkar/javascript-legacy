@@ -1,4 +1,4 @@
-const Hero = require("./heroHealth");
+import { Hero } from "./heroHealth";
 
 class Warrior extends Hero {
   constructor(initialHealth) {

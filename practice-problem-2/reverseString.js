@@ -6,5 +6,5 @@ function reverse(string) {
   return reversed;
 }
 
-module.exports = reverse;
 console.log(reverse("cat"));
+export default reverse;

@@ -6,7 +6,8 @@ function shortestString(str1, str2) {
   }
 }
 
-module.exports = shortestString;
 
 const res = shortestString("Shubham", "Bachhu");
 console.log(res);
+
+export default shortestString;

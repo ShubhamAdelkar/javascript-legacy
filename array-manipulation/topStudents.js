@@ -1,8 +1,6 @@
 // filtering objects
 function topStudents(array) {
-  const atLeast90 = array.filter(function (student) {
-    return student.grade >= 90;
-  });
+  const atLeast90 = array.filter((student) => student.grade >= 90);
   return atLeast90;
 }
 
@@ -12,6 +10,6 @@ const students = [
   { name: "Darcie", grade: 80 },
 ];
 
-console.log(topStudents(students));
+console.table(topStudents(students));
 
-module.exports = topStudents;
+export default topStudents;

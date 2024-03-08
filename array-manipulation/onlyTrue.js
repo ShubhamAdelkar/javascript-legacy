@@ -1,9 +1,7 @@
 function onlyTrue(array) {
-  const onlytrue = array.filter(function (el) {
-    return el;
-  });
+  const onlytrue = array.filter((el) => el);
   return onlytrue;
 }
 
 console.log(onlyTrue([true, false, true, false, false]));
-module.exports = onlyTrue;
+export default onlyTrue;

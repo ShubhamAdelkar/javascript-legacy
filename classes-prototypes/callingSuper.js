@@ -1,4 +1,4 @@
-const Hero = require("./heroHealth");
+import Hero from "./heroHealth";
 
 class Warrior extends Hero {
   constructor() {
@@ -17,4 +17,4 @@ console.log(warrior.rage, warrior.health);
 warrior.takeDamage(10);
 console.log(warrior.health, warrior.rage);
 
-module.exports = Warrior;
+export default Warrior;

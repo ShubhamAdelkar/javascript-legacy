@@ -22,4 +22,4 @@ stack.push(3);
 stack.push(4);
 stack.push(5);
 console.log(stack.items);
-module.exports = Stack;
+export default Stack;

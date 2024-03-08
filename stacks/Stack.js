@@ -15,4 +15,4 @@ stack.push(2);
 console.log(stack.pop());
 stack.push(3);
 console.log(stack.items);
-module.exports = Stack;
+export default Stack;

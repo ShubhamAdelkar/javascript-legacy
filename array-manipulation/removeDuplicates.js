@@ -10,6 +10,6 @@ function removeDuplicates(numbers) {
   );
 }
 
-removeDuplicates([2, 3, 2, 4, 5, 7, 1, 1, 4, 2, 5, 6, 7, 9]);
+console.log(removeDuplicates([2, 3, 2, 4, 5, 7, 1, 1, 4, 2, 5, 6, 7, 9]));
 
-module.exports = removeDuplicates;
+export default removeDuplicates;

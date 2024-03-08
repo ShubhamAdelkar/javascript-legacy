@@ -1,11 +1,9 @@
 // mapping score over objects
 function addScore(players) {
-  const updatedPlayers = players.map(function (player) {
-    return {
-      id: player.id,
-      score: player.score + 10,
-    };
-  });
+  const updatedPlayers = players.map((player) => ({
+    id: player.id,
+    score: player.score + 10,
+  }));
   return updatedPlayers;
 }
 
@@ -16,4 +14,4 @@ const originalPlayers = [
 
 console.table(addScore(originalPlayers));
 
-module.exports = addScore;
+export default addScore;

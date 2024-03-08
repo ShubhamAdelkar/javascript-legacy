@@ -8,7 +8,8 @@ function countC(str) {
   return cs.length;
 }
 
-module.exports = countC;
 
 const res = countC("Cincinatiee");
 console.log(res);
+
+export default countC;

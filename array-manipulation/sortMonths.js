@@ -14,15 +14,15 @@ const MONTHS = [
 ];
 
 function sortByMonth(events) {
-  events.sort(function (a, b) {
-    indexA = MONTHS.indexOf(a.month);
-    indexB = MONTHS.indexOf(b.month);
+  events.sort((a, b) => {
+    const indexA = MONTHS.indexOf(a.month);
+    const indexB = MONTHS.indexOf(b.month);
     return indexA - indexB;
   });
   return events;
 }
 
-console.log(
+console.table(
   sortByMonth([
     { event: "parade", month: "JAN" },
     { event: "snowball fight", month: "FEB" },

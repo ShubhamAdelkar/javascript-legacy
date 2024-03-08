@@ -1,4 +1,4 @@
-const squared = require("./square.js");
+import squared from "./square.js";
 
 function squaredMap(arr) {
   const square = arr.map(squared);
@@ -7,4 +7,4 @@ function squaredMap(arr) {
 
 console.log(squaredMap([2, 5, 7, 9, 88]));
 
-module.exports = squaredMap;
+export default squaredMap;

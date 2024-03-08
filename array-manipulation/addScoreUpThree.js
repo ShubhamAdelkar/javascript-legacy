@@ -1,5 +1,5 @@
 function addScore(players) {
-  const updatedPlayers = players.map(function (player, i) {
+  const updatedPlayers = players.map((player, i) => {
     if (i < 3) {
       return {
         id: player.id,
@@ -21,5 +21,5 @@ const originalPlayers = [
   { id: 5, score: 40 },
 ];
 
-console.log(addScore(originalPlayers));
-module.exports = addScore;
+console.table(addScore(originalPlayers));
+export default addScore;

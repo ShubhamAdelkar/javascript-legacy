@@ -16,4 +16,4 @@ console.table(
   ])
 );
 
-module.exports = group;
+export default group;

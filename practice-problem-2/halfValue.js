@@ -10,6 +10,6 @@ function halfValue(numbers) {
   return newarray;
 }
 
-module.exports = halfValue;
 const res = halfValue([3, 4, 3, 2, 3, 45, 56, 6, 54, 7]);
 console.log(res)
+export default halfValue;

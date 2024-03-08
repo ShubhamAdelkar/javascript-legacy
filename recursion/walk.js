@@ -4,4 +4,4 @@ function walk(node) {
 }
 
 console.log(walk({ id: 5 }), { id: 5 });
-module.exports = walk;
+export default walk;

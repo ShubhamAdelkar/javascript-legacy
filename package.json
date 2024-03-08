@@ -1,0 +1,12 @@
+{
+  "name": "js-exersices",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Legacy Javascript from freecodecamp and alchemy university.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Adelkar",
+  "license": "ISC"
+}

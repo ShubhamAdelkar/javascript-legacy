@@ -7,4 +7,4 @@ function allUnique(numbers) {
 
 console.log(allUnique([1,2,3,4,5,6,7,8]));
 
-module.exports = allUnique;
+export default allUnique;

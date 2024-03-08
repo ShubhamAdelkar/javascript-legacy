@@ -9,5 +9,5 @@ function isPalindrome(string) {
   return false;
 }
 
-module.exports = isPalindrome;
 console.log(isPalindrome("pop"));
+export default isPalindrome;

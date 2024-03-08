@@ -11,4 +11,4 @@ console.log(list.data);
 console.log(list.next);
 console.log(list.head);
 
-module.exports = LinkedList;
+export default LinkedList;

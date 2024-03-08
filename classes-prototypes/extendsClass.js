@@ -1,4 +1,4 @@
-const Hero = require("./classHero");
+import Hero from "./classHero";
 
 class Warrior extends Hero {
   constructor() {
@@ -10,4 +10,4 @@ class Warrior extends Hero {
 const warrior = new Warrior();
 console.log(warrior.rage);
 
-module.exports = Warrior;
+export default Warrior;

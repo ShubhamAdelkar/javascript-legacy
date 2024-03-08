@@ -27,4 +27,4 @@ console.log(stack.pop());
 console.log(stack.pop());
 console.log(stack.pop());
 console.log(stack.items);
-module.exports = Stack;
+export default Stack;
