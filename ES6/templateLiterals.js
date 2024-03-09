@@ -1,3 +1,5 @@
+// `` within this we can define strings with variables, don't need to worry about + concatination.
+
 const person = {
   name: "Zodiac Hasbro",
   age: 56,
