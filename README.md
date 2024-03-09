@@ -1,40 +1,17 @@
-# JS FUNDAMENTALS 🔥
-This repo cover whole javascript(ES6) with examples.💻
+# Javascript Legacy ✨
 
-## Basics 
-<b>JS Basics ✓</b>
-- <small>Functions & Operators</small>
-- <small>Conditionals</small>
-- <small>Loops</small>
+JavaScript is a scripting language you can use to make web pages interactive.
+It is one of the core technologies of the web, along with HTML and CSS, and is supported by all modern browsers.
+In this repository, you'll get fundamentals of JavaScript. You'll start with basic data structures such as numbers and strings.
+Then you'll get code bases of arrays, objects, functions, loops, if/else statements, and more. 😁
 
-<b>Data Storage ✓</b>
-- <small>String Manipulation</small>
-- <small>Working with Arrays</small>
-- <small>Objects</small>
+`Note - all codes implemented from FreeCodeCmap's JS data structures & algorithms course, on thier site and from Alchemy University's Javascript course, on thier site.`
 
-<b>Intermediate JS Features ✓</b>
-- <small>Logical Operators</small>
-- <small>Exceptions</small>
-- <small>Type Conversion</small>
-
-<b>Classes & Prototypes ✓</b>
-- <small>This Keywords</small>
-- <small>Prototype Chain</small>
-- <small>Classes</small>
-
-## Data Structures 
-
-<b>Array Manipulation ✓</b>
-- <small>Array Sort</small>
-- <small>Array Map</small>
-- <small>Array Filter</small>
-- <small>Array Reduce</small>
-
-<b>Building Data Structures ✓</b>
-- <small>Recursion</small>
-- <small>Stacks</small>
-- <small>Linked List</small>
-
-## ES6
-
-## Web Server
+- Basic Javascript
+- Array Manipulation
+- Classes Prototypes
+- ES6
+- Data Storage
+- Intermediate JS
+- Practice Problems
+- Data Structures
