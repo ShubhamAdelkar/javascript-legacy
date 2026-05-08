@@ -60,8 +60,67 @@ function findByAuthor(catalog, author) {
   return results;
 }
 
-const kingBooks = findByAuthor(catalog, "king");
-console.log(kingBooks.length);
-for (let i = 0; i < kingBooks.length; i++) {
-  console.log(`${kingBooks[i].title} (${kingBooks[i].year})`);
+function groupByDecade(catalog) {
+  const grouped = {};
+  for (let i = 0; i < catalog.length; i++) {
+    const book = catalog[i];
+    if (book.year === "Unknown") {
+      if (!grouped["Unknown"]) {
+        grouped["Unknown"] = [];
+      }
+      grouped["Unknown"].push(book);
+      continue;
+    }
+    const decade = Math.floor(book.year / 10) * 10;
+    const decadeKey = `${decade}s`;
+    if (!grouped[decadeKey]) {
+      grouped[decadeKey] = [];
+    }
+    grouped[decadeKey].push(book);
+  }
+  return grouped;
 }
+
+const byDecade = groupByDecade(catalog);
+
+function renderEntry(entry) {
+  const title = entry.title || "Unknown";
+  const author = entry.author || "Unknown";
+  const year = entry.year || "Unknown";
+  const location = entry.location || "Unknown";
+  return `${"-".repeat(25)}
+Title: ${title}
+Author: ${author}
+Year: ${year}
+Location: ${location}
+${"-".repeat(25)}`;
+}
+
+console.log(renderEntry(catalog[0]));
+
+function validateEntry(entry) {
+  let isValid = true;
+  if (!("title" in entry) || !entry.title || entry.title === "Unknown") {
+    isValid = false;
+  }
+  if (!("author" in entry) || !entry.author || entry.author === "Unknown") {
+    isValid = false;
+  }
+  if (!("year" in entry) || !entry.year || entry.year === "Unknown") {
+    isValid = false;
+  }
+  if (
+    !("location" in entry) ||
+    !entry.location ||
+    entry.location === "Unknown"
+  ) {
+    isValid = false;
+  }
+  return isValid;
+}
+
+function exportToJSON(catalog) {
+  return JSON.stringify(catalog, null, 2);
+}
+
+console.log(exportToJSON(catalog.slice(0, 2)));
